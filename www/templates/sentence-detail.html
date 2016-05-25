@@ -1,0 +1,10 @@
+<ion-view title="">
+	<ion-content has-header="true" padding="true">
+	<div class="list card" >
+		<span ng-repeat="word in sentence.words track by $index" type="item-text-wrap" class="item-text" >
+		<a class="button button-small button-clear button-dark" href="#/dict/{{word}}">{{word}}</a>
+		</span>
+	</div>
+		<!-- {{sentence.words[0]}} -->
+	</ion-content>
+</ion-view>
